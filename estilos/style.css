@@ -2,6 +2,7 @@
 
 /* First Mobile */
 :root{
+    --verde-claro: #94CFCD;
     --verde: #49a09d;
     --lilás: #5f2c82;
     --fonte-padrao:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,5 +49,46 @@ div#imagem{
 }
 h1 {
     text-align: center;
+    padding-bottom:10px;
+}
+div#conteudo{
     padding: 10px;
+}
+div#conteudo > p {
+    font-size: 13px;
+}
+div.box{
+    margin-top: 5px;
+    padding:1px;
+    
+    background-color:var(--lilás);
+    border-radius: 8px;
+    
+
+}
+div.box > input{   
+    border-radius: 8px;
+    background-color:var(--verde-claro);
+    border: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+div.box > input:hover{
+    background-color:white;
+}
+
+#formatação-icon1{
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    padding-left:5px;
+    padding-right: 5px;
+}
+#formatação-icon2{
+    color: white;
+    font-size: 30px;
+    vertical-align: middle;
+    padding-left:5px;
+    padding-right: 5px;
 }
