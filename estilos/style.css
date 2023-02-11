@@ -59,20 +59,16 @@ div#conteudo > p {
 }
 div.box{
     margin-top: 5px;
-    padding:1px;
-    
+    padding: 1px;
     background-color:var(--lilás);
     border-radius: 8px;
-    
-
 }
 div.box > input{   
     border-radius: 8px;
     background-color:var(--verde-claro);
     border: none;
-    padding-top:10px;
-    padding-bottom: 10px;
     font-size: 15px;
+    height: 30px;
 }
 div.box > input:hover{
     background-color:white;
