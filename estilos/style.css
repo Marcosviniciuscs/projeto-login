@@ -28,7 +28,7 @@ main{
     width: 100vw;
     position: relative;
 }
-section#caixa{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,6 +37,7 @@ section#caixa{
     height: 515px;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.501) ;
 }
 div#imagem{
     background-image: url(../imagens/metal.jpg);
@@ -52,10 +53,10 @@ h1 {
     text-align: center;
     padding-bottom:10px;
 }
-div#conteudo{
+div#formulario{
     padding: 10px;
 }
-div#conteudo > p {
+div#formulario > p {
     font-size: 13px;
 }
 div.box{
@@ -117,11 +118,12 @@ div#esqueci-senha a {
     padding: 8px;
     border-radius: 8px;    
     margin-top: 5px;
-
-
 }
 
 div#esqueci-senha > a:hover{
     background-color: var(--verde-claro);
     cursor: pointer;
+}
+div#esqueci-senha > a::after{
+    content:" \2709";
 }
