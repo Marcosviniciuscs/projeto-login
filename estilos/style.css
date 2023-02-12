@@ -4,6 +4,7 @@
 :root{
     --verde-claro: #94CFCD;
     --verde: #49a09d;
+    --verde-escuro: #224a49;
     --lilás: #5f2c82;
     --fonte-padrao:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -59,16 +60,20 @@ div#conteudo > p {
 }
 div.box{
     margin-top: 5px;
-    padding: 1px;
+    padding: 2px;
     background-color:var(--lilás);
     border-radius: 8px;
+    width: 100%;
+    display: inline-flex;
+
 }
 div.box > input{   
     border-radius: 8px;
     background-color:var(--verde-claro);
     border: none;
-    font-size: 15px;
-    height: 30px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
 }
 div.box > input:hover{
     background-color:white;
@@ -78,13 +83,45 @@ div.box > input:hover{
     color: white;
     font-size: 30px;
     vertical-align: middle;
-    padding-left:5px;
-    padding-right: 5px;
+    padding:3px 6px 3px 3px;
 }
 #formatação-icon2{
     color: white;
     font-size: 30px;
     vertical-align: middle;
-    padding-left:5px;
-    padding-right: 5px;
+    padding:3px 6px 3px 3px;
+}
+#botao-entrar{
+    color:white;
+    border: none;
+    background-color: var(--verde);
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#botao-entrar:hover{
+    background-color:var(--verde-escuro);
+    cursor: pointer;
+}
+
+div#esqueci-senha a {
+    display: block;
+    text-align: center;
+    text-decoration:none;
+    border: 1px solid var(--verde);
+    color: var(--verde-escuro);
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;    
+    margin-top: 5px;
+
+
+}
+
+div#esqueci-senha > a:hover{
+    background-color: var(--verde-claro);
+    cursor: pointer;
 }

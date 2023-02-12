@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="estilos/style.css">
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -27,7 +27,11 @@
                     </div>
                     <div class="box">
                         <span class="material-icons" id="formatação-icon2">vpn_key</span>
-                        <input type="password" name="senha" id="isenha" required placeholder=" sua senha">                           
+                        <input type="password" name="senha" id="isenha"  placeholder=" sua senha" minlength="8" maxlength="20" required>                           
+                    </div>
+                    <input type="submit" value="Entrar" id="botao-entrar">
+                    <div id="esqueci-senha">
+                         <a href="https://support.google.com/mail/answer/8494?hl=pt-BR&co=GENIE.Platform%3DDesktop" target="_blank" rel="externo">Esqueci a senha</a>
                     </div>
                 </form>
             </div>
