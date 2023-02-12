@@ -54,9 +54,11 @@
         width: 50%;
         height: 100%;
         border-radius: 0px 20px 20px 0px;
+        transform:translateX(105%);
     }
     div#formulario{
         width: 50%;
+        transform: translateX(-96%);
     }
     div#formulario > p{
         font-size: 1em;
